@@ -23,8 +23,10 @@ def findError():
         
     return o, output
 
-def main():
 
+def main():
+    o, output = findError()
     print(f"the error propogation for {o} is {output}")
+
 
 main()
